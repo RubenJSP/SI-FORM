@@ -1,5 +1,4 @@
 window.addEventListener('load', function() {
-	var from = document.getElementById("from");
 	var div = document.getElementById('msj');
 	var nombre = document.getElementById('nombre');
 	var apellido = document.getElementById('apellido');
@@ -11,7 +10,6 @@ window.addEventListener('load', function() {
 	var textPattern = /[A-Za-z]|\s/g;
 	var namePattern = /^([A-Za-z]{2,}\s{0,1})+$/g;
 	var numberPattern = /\d+/g;
-	var cellPattern = /^\d{10}$/g;
 	var mailPattern = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 	var name = false,
 		lastname = false,
